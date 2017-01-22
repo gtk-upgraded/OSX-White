@@ -992,13 +992,10 @@ label:insensitive {
     background-color: transparent;
 }
 
-<<<<<<< HEAD
 label {
     color: @fg_color;
 }
 
-=======
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
 /***********
  * infobar *
  ***********/
@@ -1606,11 +1603,7 @@ scale {
     -GtkScale-slider-length: 14;
 }
 
-<<<<<<< HEAD
 scale slider {
-=======
-scale.slider {
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
     border-radius: 12px;
     background-image: linear-gradient(to bottom,
                                       shade(shade(@theme_bg_color, 1.02), 1.12),
@@ -1740,7 +1733,6 @@ scale.highlight.bottom:insensitive {
                                       );
 }
 
-<<<<<<< HEAD
 scale {
   min-height: 10px;
   min-width: 10px;
@@ -1864,8 +1856,6 @@ scale slider {
     min-width: 3px; }
 
 
-=======
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
 /***********
  * sidebar *
  ***********/
@@ -2392,11 +2382,7 @@ switch {
     box-shadow: none;
 }
 
-<<<<<<< HEAD
 switch:checked {
-=======
-switch:active {
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
     background: -gtk-scaled(url("assets/switch-on.svg"));
     background-repeat: no-repeat;
     background-position: 0 center;
@@ -2408,11 +2394,7 @@ switch:insensitive {
     background-position: 0 center;
 }
 
-<<<<<<< HEAD
 switch:checked:insensitive {
-=======
-switch:active:insensitive {
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
     background: -gtk-scaled(url("assets/switch-on-disabled.svg"));
     background-repeat: no-repeat;
     background-position: 0 center;
@@ -2424,24 +2406,17 @@ switch slider {
     background-position: 0 center;
 }
 
-<<<<<<< HEAD
 switch slider:checked {
     margin-right: -5px;
 }
 
-=======
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
 switch slider:focus {
     background: -gtk-scaled(url("assets/switch-slider-focus.svg"));
     background-repeat: no-repeat;
     background-position: 0 center;
 }
 
-<<<<<<< HEAD
 switch slider:checked:insensitive,
-=======
-switch slider:active:insensitive,
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
 switch slider:insensitive {
     background: -gtk-scaled(url("assets/switch-slider-disabled.svg"));
     background-repeat: no-repeat;

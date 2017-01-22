@@ -120,10 +120,7 @@ headerbar > GtkBox > separator.vertical {
 check,
 check row:selected,
 check row:selected:focus {
-<<<<<<< HEAD
     padding: 3px;
-=======
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
     -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-dark.svg");
 }
 
@@ -161,10 +158,7 @@ check row:selected:focus:inconsistent:insensitive {
 radio,
 radio row:selected,
 radio row:selected:focus {
-<<<<<<< HEAD
     padding: 3px;
-=======
->>>>>>> 7ed5db3a0aa763ac6419eb74965a500f3940307d
     -gtk-icon-source: url("assets/radio-unselected-dark.svg");
 }
 
